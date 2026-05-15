@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-vaibhav-chauhan.vercel.app/sitemap.xml
