@@ -86,7 +86,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         </div>
         {/* Live badge */}
-        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-[#c9a84c] text-black text-[10px] font-bold px-3 py-1 rounded-full shadow-lg border-2 border-[#0a0a0a] z-10 tracking-widest">
+        <div className="absolute bottom-2 right-0 md:bottom-4 md:right-2 bg-[#c9a84c] text-black text-[10px] font-bold px-3 py-1 rounded-full shadow-lg border-2 border-[#0a0a0a]">
           LIVE
         </div>
       </div>
