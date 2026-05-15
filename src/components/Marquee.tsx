@@ -1,14 +1,14 @@
 const SKILLS = [
-  '🎤 Mimicry Artist',
-  '🎵 Songwriter',
-  '🎨 Visual Artist',
-  '🎭 Stage Performer',
-  '📸 Content Creator',
-  '🖌️ Commissioned Artwork',
-  '🎙️ Voice Actor',
-  '🏆 Show Host',
-  '🌟 Stage Soul Society',
-  '🇮🇳 Gujarat Based',
+  'Mimicry Artist',
+  'Songwriter',
+  'Visual Artist',
+  'Stage Performer',
+  'Content Creator',
+  'Commissioned Artwork',
+  'Voice Actor',
+  'Show Host',
+  'Stage Soul Society',
+  'Gujarat Based',
 ];
 
 const doubled = [...SKILLS, ...SKILLS];

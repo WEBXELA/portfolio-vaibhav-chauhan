@@ -140,7 +140,7 @@ export function Services() {
           style={{ animationDelay: '0.65s' }}
         >
           <p className="text-[rgba(240,236,228,0.4)] text-sm">
-            📩 DM for show booking · commissioned artwork · collaboration
+            DM for show booking · commissioned artwork · collaboration
           </p>
         </div>
       </div>

@@ -95,14 +95,14 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-[rgba(240,236,228,0.6)] flex items-center gap-1.5 font-medium">
-            © 2025 Vaibhav Chauhan. All rights reserved.
+            © 2026 Vaibhav Chauhan. All rights reserved.
           </p>
           <p className="text-sm text-[rgba(240,236,228,0.6)] flex items-center gap-1.5 font-medium">
             Designed by{' '}
-            <a 
-              href="https://uimitra.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://uimitra.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#c9a84c] hover:text-[#e8c96e] hover:underline transition-colors font-bold"
             >
               Uimitra
