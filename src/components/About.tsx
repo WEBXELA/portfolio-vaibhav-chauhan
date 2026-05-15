@@ -64,7 +64,7 @@ export function About() {
           style={{ animationDelay: '0.2s' }}
         >
           <p className="text-[rgba(240,236,228,0.7)] text-lg leading-relaxed">
-            Based in the heart of <strong className="text-[#f0ece4]">Gujarat, India 🇮🇳</strong>, Vaibhav Chauhan
+            Based in the heart of <strong className="text-[#f0ece4]">Gujarat, India</strong>, Vaibhav Chauhan
             is a multi-talented creative who lives and breathes performance. From perfectly mimicking
             your favourite Bollywood stars to writing original songs that touch your heart — he does it all.
           </p>

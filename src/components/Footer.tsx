@@ -57,7 +57,6 @@ export function Footer() {
               Mimicry Artist · Songwriter · Visual Artist · Founder of Stage Soul Society
             </p>
             <div className="flex items-center gap-1.5 text-xs text-[rgba(240,236,228,0.6)]">
-              <span>🇮🇳</span>
               <span>Gujarat, India</span>
             </div>
           </div>

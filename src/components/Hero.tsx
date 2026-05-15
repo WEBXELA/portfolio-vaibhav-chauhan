@@ -62,7 +62,6 @@ export function Hero() {
         style={{ animationDelay: '0.1s' }}
       >
         <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-[rgba(240,236,228,0.6)] tracking-widest uppercase font-medium">
-          <span className="text-base">🇮🇳</span>
           Based in Gujarat, India
           <span className="w-1.5 h-1.5 rounded-full bg-[#c9a84c] animate-pulse" />
         </span>
@@ -107,12 +106,10 @@ export function Hero() {
         className={`flex items-center gap-3 mb-10 ${isInView ? 'animate-fade-in-up' : 'opacity-0'}`}
         style={{ animationDelay: '0.45s' }}
       >
-        <span className="text-[rgba(240,236,228,0.4)] text-lg">—</span>
         <span className="text-[#c9a84c] text-xl md:text-2xl font-medium min-w-[220px] text-center">
           <span ref={roleRef} />
           <span className="inline-block w-0.5 h-6 bg-[#c9a84c] ml-0.5 align-middle animate-pulse" />
         </span>
-        <span className="text-[rgba(240,236,228,0.4)] text-lg">—</span>
       </div>
 
       {/* Tagline */}
