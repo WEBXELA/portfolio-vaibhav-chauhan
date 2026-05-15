@@ -213,3 +213,10 @@ body {
   mix-blend-mode: screen;
   transition: transform 0.1s ease;
 }
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
