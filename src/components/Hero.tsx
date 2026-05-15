@@ -154,7 +154,15 @@ export function Hero() {
       >
         <a
           id="hero-book-btn"
-          href="#contact"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            if ((window as any).Calendly) {
+              (window as any).Calendly.initPopupWidget({
+                url: 'https://calendly.com/vaibhavchauhan5804/30min?text_color=0a0a0a&primary_color=c9a84c'
+              });
+            }
+          }}
           className="btn-glow px-8 py-4 rounded-full bg-[#c9a84c] text-black font-bold text-sm uppercase tracking-widest hover:bg-[#e8c96e] transition-all duration-300 shadow-[0_0_30px_rgba(201,168,76,0.35)]"
         >
           Book A Show

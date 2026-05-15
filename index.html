@@ -18,9 +18,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    
+    <!-- Calendly widget scripts & styles -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Calendly badge initialization -->
+    <script type="text/javascript">
+      window.onload = function() { 
+        if (window.Calendly) {
+          window.Calendly.initBadgeWidget({ 
+            url: 'https://calendly.com/vaibhavchauhan5804/30min?text_color=0a0a0a&primary_color=c9a84c', 
+            text: 'Schedule time with me', 
+            color: '#c9a84c', 
+            textColor: '#ffffff', 
+            branding: true 
+          }); 
+        }
+      }
+    </script>
   </body>
 </html>
