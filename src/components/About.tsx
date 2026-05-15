@@ -6,7 +6,7 @@ const HIGHLIGHTS = [
   { number: '3+', label: 'Instagram Profiles', sub: 'Artist · Stage · Words' },
   { number: '∞', label: 'Voices Mastered', sub: 'Mimicry specialization' },
   { number: '100+', label: 'Shows Performed', sub: 'Stages across Gujarat' },
-  { number: '2024', label: 'Stage Soul Society', sub: 'Founded by Vaibhav' },
+  { number: '2025', label: 'Stage Soul Society', sub: 'Founded by Vaibhav' },
 ];
 
 const INSTAGRAM_LINKS = [
@@ -75,7 +75,7 @@ export function About() {
           </p>
           <p className="text-[rgba(240,236,228,0.7)] text-lg leading-relaxed">
             His art doesn't stop at performance. He's also a passionate <strong className="text-[#f0ece4]">visual
-            artist</strong>, creating commissioned drawings that capture emotion in every stroke.
+              artist</strong>, creating commissioned drawings that capture emotion in every stroke.
           </p>
 
           {/* Instagram links */}

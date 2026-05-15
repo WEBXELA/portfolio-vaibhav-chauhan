@@ -29,7 +29,7 @@ export function StageSection() {
               {/* Floating badge */}
               <div className="absolute top-5 left-5 glass rounded-2xl px-4 py-3">
                 <p className="text-xs font-bold text-[#c9a84c] uppercase tracking-widest">Stage Soul Society</p>
-                <p className="text-xs text-[rgba(240,236,228,0.5)] mt-0.5">Est. 2024 · Gujarat</p>
+                <p className="text-xs text-[rgba(240,236,228,0.5)] mt-0.5">Est. 2025 · Gujarat</p>
               </div>
             </div>
 
