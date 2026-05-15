@@ -220,3 +220,11 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* Hide Calendly floating badge on mobile/tablets */
+@media (max-width: 768px) {
+  .calendly-badge-widget {
+    display: none !important;
+  }
+}
+

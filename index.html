@@ -56,6 +56,21 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     
+    <!-- Calendly badge (Desktop only, hidden on mobile via CSS) -->
+    <script type="text/javascript">
+      window.onload = function() { 
+        if (window.Calendly) {
+          window.Calendly.initBadgeWidget({ 
+            url: 'https://calendly.com/vaibhavchauhan5804/30min?text_color=0a0a0a&primary_color=c9a84c', 
+            text: 'Book A Show', 
+            color: '#c9a84c', 
+            textColor: '#ffffff', 
+            branding: false 
+          }); 
+        }
+      }
+    </script>
+    
 
   </body>
 </html>
